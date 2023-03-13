@@ -30,8 +30,7 @@ public class PingController {
 		
 		return sb;
 	}
-
-	// /src/main/resources/META-INF/resources/WEB-INF/jsp/ping.jsp
+	
 	// http://localhost:8080/ping-jsp
 	@RequestMapping("ping-jsp")
 	public String pingJsp() {
